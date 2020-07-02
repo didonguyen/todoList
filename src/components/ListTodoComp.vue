@@ -46,10 +46,15 @@ export default {
 </script>
 
 <style>
+.wrapper-todo-list{
+    width: 90%;
+    margin: 5px 5%;
+}
 .todo-list{
     
-    margin-left: 0  px;
-    width: 85%;
+    padding: none;
+    margin-left: 10px 10px;
+    width: 100%;
     list-style-type: none;
     
 }
