@@ -36,6 +36,11 @@ export default {
     color: rgb(5, 5, 5);
     border-radius: 4px;
     font-size: 18px;
+    transition: all .3s ease;
+}
+.add-button:hover{
+    background-color: #333;
+    color: #fff;
 }
 .add-new{
     width: 100%;

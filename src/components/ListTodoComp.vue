@@ -78,6 +78,12 @@ export default {
     color: rgb(5, 5, 5);
     border-radius: 4px;
     font-size: 18px;
+    transition: all .3s ease;
+}
+.update-button:hover{
+    border: 1px solid rgb(57, 158, 189);
+    background-color: #333;
+    color: #fff;
 }
 .delete-button{
     border: 1px solid rgb(175, 175, 209);
@@ -87,5 +93,12 @@ export default {
     color: rgb(5, 5, 5);
     border-radius: 4px;
     font-size: 18px;
+    transition: all .3s ease;
+}
+
+.delete-button:hover{
+    border: 1px solid rgb(57, 158, 189);
+    background-color: #333;
+    color: #fff;
 }
 </style>
