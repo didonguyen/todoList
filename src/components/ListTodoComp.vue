@@ -101,4 +101,29 @@ export default {
     background-color: #333;
     color: #fff;
 }
+
+@media only screen and (max-width: 480px){
+    .wrapper-todo-list{
+        width: 100%;
+        margin: 5px 5%;
+    }
+    .todo-list{  
+        padding: none;
+        margin-left: 10px 10px;
+        width: 100%;
+        list-style-type: none;
+    }
+.todo-list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 5px 8px;
+    margin-bottom: 5px;
+    background-color: rgb(243, 245, 244);
+    font-size: 22px;
+    }
+}
 </style>

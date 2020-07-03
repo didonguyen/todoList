@@ -55,4 +55,16 @@ export default {
     padding: 0 5px;
     font-size: 18px;
 }
+@media(max-width: 480px){
+    .add-new{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    } 
+    .add-button{
+        margin-top: 15px;
+    }
+}
 </style>
